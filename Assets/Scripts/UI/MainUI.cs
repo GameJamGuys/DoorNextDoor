@@ -30,20 +30,27 @@ public class MainUI : MonoBehaviour
             switch (state)
             {
                 case UIstate.Game:
-                    mainPanel.SetActive(true);
-                    state = UIstate.Pause;
+                    Pause();
                     break;
                 case UIstate.Pause:
                 case UIstate.Setting:
-                    state = UIstate.Game;
                     UnPause();
                     break;
             }
         }
     }
 
+    public void Pause()
+    {
+        AudioManager.Instance.PlaySound("Button");
+        mainPanel.SetActive(true);
+        state = UIstate.Pause;
+    }
+
     public void UnPause()
     {
+        AudioManager.Instance.PlaySound("Button");
+        state = UIstate.Game;
         settPanel.SetActive(false);
         mainPanel.SetActive(false);
     }

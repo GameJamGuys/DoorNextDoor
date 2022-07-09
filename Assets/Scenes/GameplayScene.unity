@@ -533,6 +533,77 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179148439}
   m_CullTransparentMesh: 1
+--- !u!1 &195646940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 195646942}
+  - component: {fileID: 195646941}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &195646941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195646940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb5ed2b5f1f14242aa3655187f74629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startSound: 
+  sounds:
+  - name: Button
+    clip: {fileID: 8300000, guid: 95aae9bc8f129e84193eab2a3c22f9e6, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Inventory
+    clip: {fileID: 8300000, guid: 2643072edaad689458b2bd12ee702387, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Note
+    clip: {fileID: 8300000, guid: fdc889031be1af44aa75acc447b25e2e, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: 95aae9bc8f129e84193eab2a3c22f9e6, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: 95aae9bc8f129e84193eab2a3c22f9e6, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+--- !u!4 &195646942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195646940}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &212861463
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,8 +1416,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doors:
-  - {fileID: 8259116651773343264, guid: d904ee10365574313917796ded679566, type: 3}
-  - {fileID: 8259116651773343264, guid: d904ee10365574313917796ded679566, type: 3}
+  - {fileID: 2333951584501797765, guid: e391b636eb1a74ac798a65551db69785, type: 3}
+  - {fileID: 6309390267757261152, guid: 47ba7f111590645829d3df8fc75ee76f, type: 3}
+  - {fileID: 838410301353675152, guid: 1f67fe7935a6048c0985e1d63b5e0220, type: 3}
+  - {fileID: 570590749877768443, guid: 315ca7113da204bcc868974511b99740, type: 3}
+  - {fileID: 945761056498568898, guid: 87533369842de4c8bb77cbc7d77f9d19, type: 3}
+  - {fileID: 1369038174535693636, guid: cddf2ba453fae4b75a7c8a836e24a643, type: 3}
+  - {fileID: 3729567643992162684, guid: a80e4cf22b4e4431da9e25e012bd23cb, type: 3}
+  - {fileID: 773824943464655340, guid: dbd24cb2eb57e4e7caa28c3194bf6b4a, type: 3}
 --- !u!114 &962148078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1620,7 +1697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseKey: 27
   mainPanel: {fileID: 212861463}
-  settPanel: {fileID: 0}
+  settPanel: {fileID: 1899373951}
 --- !u!1 &1131098639
 GameObject:
   m_ObjectHideFlags: 0
