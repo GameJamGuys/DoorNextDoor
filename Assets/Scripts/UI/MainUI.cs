@@ -47,13 +47,14 @@ public class MainUI : MonoBehaviour
         }
     }
 
-    public void OpenNote(int index, string text)
+    public void OpenNote(int index, string note)
     {
         notes[index].SetActive(true);
-        notes[index].GetComponentInChildren<TextMeshPro>().text = text;
+        notes[index].GetComponentInChildren<TextMeshPro>().text = note;
+        state = UIstate.Note;
     }
 
-    void CloseNotes()
+    public void CloseNotes()
     {
         foreach (GameObject note in notes) note.SetActive(false);
     }

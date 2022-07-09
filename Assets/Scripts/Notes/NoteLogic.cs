@@ -18,7 +18,6 @@ public class NoteLogic : MonoBehaviour
 
     void OpenNote()
     {
-        MainUI.Instance.state = MainUI.UIstate.Note;
         MainUI.Instance.OpenNote(noteIndex, noteText);
         Destroy(gameObject);
     }

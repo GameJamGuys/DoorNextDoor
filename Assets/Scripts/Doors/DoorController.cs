@@ -14,16 +14,9 @@ public class DoorController : MonoBehaviour
         NextDoor();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void NextDoor()
     {
         if (doorIndex == doors.Length) Loader.ToMainMenu();
-        else
-        Instantiate(doors[doorIndex++], transform);
+        else Instantiate(doors[doorIndex++], transform);
     }
 }

@@ -15,10 +15,10 @@ public class DoorLogic : MonoBehaviour
         button = GetComponent<Button>();
         anim = GetComponent<Animator>();
 
-        button.onClick.AddListener(Open);
+        if(button)button.onClick.AddListener(Open);
     }
 
-    void Open()
+    public void Open()
     {
         AudioManager.Instance.PlaySound("Door");
         anim.Play("Open");
