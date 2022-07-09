@@ -20,16 +20,19 @@ public class PausePanel : MonoBehaviour
 
     void Settings()
     {
+        AudioManager.Instance.PlaySound("Button");
         MainUI.Instance.settPanel.SetActive(true);
     }
 
     void MainMenu()
     {
+        AudioManager.Instance.PlaySound("Button");
         Loader.ToMainMenu();
     }
 
     void ClosePause()
     {
+        AudioManager.Instance.PlaySound("Button");
         MainUI.Instance.UnPause();
     }
 }

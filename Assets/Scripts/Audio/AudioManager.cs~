@@ -5,7 +5,6 @@ public class AudioManager : MonoBehaviour
 {
     public string startSound;
     public Sound[] sounds;
-
     Sound currentMusic;
     float currentVolume;
     float silentVolume;
@@ -30,13 +29,10 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         Sound StartMusic = FindSound(startSound);
-        if (StartMusic != null)
-        {
-            StartMusic.source.Play();
-            currentMusic = StartMusic;
-            isPlayAbove = false;
-        }
-        
+        StartMusic.source.Play();
+        currentMusic = StartMusic;
+        PlaySound(backSound);
+        isPlayAbove = false;
     }
 
     public void ChangeMusic(string name)
@@ -95,12 +91,6 @@ public class AudioManager : MonoBehaviour
     {
         int index = UnityEngine.Random.Range(0, sounds.Length);
         sounds[index].source.Play();
-    }
-
-    public void PlayRandomSound(string[] sounds)
-    {
-        int index = UnityEngine.Random.Range(0, sounds.Length);
-        FindSound(sounds[index]).source.Play();
     }
 
     public void StopSound(string name)
