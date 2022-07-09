@@ -8,9 +8,11 @@ public class MainUI : MonoBehaviour
     public GameObject mainPanel;
     public GameObject settPanel;
 
+    public GameObject[] notes;
+
     public static MainUI Instance { get; private set; }
-    enum UIstate { Game, Pause, Setting}
-    UIstate state;
+    public enum UIstate { Game, Pause, Setting, Note}
+    public UIstate state;
 
     private void Awake()
     {
@@ -36,9 +38,20 @@ public class MainUI : MonoBehaviour
                 case UIstate.Setting:
                     UnPause();
                     break;
+                case UIstate.Note:
+                    CloseNotes();
+                    break;
             }
         }
     }
+
+    void OpenNote(int index) => notes[index].SetActive(true);
+
+    void CloseNotes()
+    {
+        foreach (GameObject note in notes) note.SetActive(false);
+    }
+
 
     public void Pause()
     {
