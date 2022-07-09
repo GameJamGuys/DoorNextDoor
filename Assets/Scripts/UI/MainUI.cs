@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class MainUI : MonoBehaviour
 {
@@ -45,7 +47,11 @@ public class MainUI : MonoBehaviour
         }
     }
 
-    void OpenNote(int index) => notes[index].SetActive(true);
+    public void OpenNote(int index, string text)
+    {
+        notes[index].SetActive(true);
+        notes[index].GetComponentInChildren<TextMeshPro>().text = text;
+    }
 
     void CloseNotes()
     {
