@@ -2,18 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum ItemType { 
-Food,
-Equipment,
-Default
-}
-
-public abstract class ItemObject :  ScriptableObject
+public class ObjectClicker : MonoBehaviour
 {
-    public GameObject prefab;
-    public ItemType type;
-    [TextArea(15, 20)]
-    public string description;
     // Start is called before the first frame update
     void Start()
     {
