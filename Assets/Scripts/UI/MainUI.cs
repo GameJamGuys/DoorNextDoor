@@ -1,0 +1,33 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MainUI : MonoBehaviour
+{
+    public GameObject mainPanel;
+    public GameObject settPanel;
+
+    public static MainUI Instance { get; private set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void UnPause()
+    {
+        settPanel.SetActive(false);
+        mainPanel.SetActive(false);
+    }
+}

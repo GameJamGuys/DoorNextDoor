@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class DoorController : MonoBehaviour
+public class PausePanel : MonoBehaviour
 {
-    public GameObject[] doors;
+    public Button settingsButton;
+    public Button mainMenuButton;
+    public Button continueButton;
 
     void Start()
     {
-        Instantiate(doors[0], transform);
+        
     }
 
     // Update is called once per frame
