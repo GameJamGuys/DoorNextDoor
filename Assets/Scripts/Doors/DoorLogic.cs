@@ -21,7 +21,14 @@ public class DoorLogic : MonoBehaviour
     void Open()
     {
         anim.Play("Open");
+        StartCoroutine(NextDoorDelay());
+    }
+
+    IEnumerator NextDoorDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
         control.NextDoor();
+        Destroy(gameObject);
     }
 
     // Update is called once per frame
