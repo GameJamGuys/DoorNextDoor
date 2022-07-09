@@ -32,11 +32,17 @@ public class AudioManager : MonoBehaviour
         Sound StartMusic = FindSound(startSound);
         if (StartMusic != null)
         {
+            StartMusic.source.pitch = 0.8f;
             StartMusic.source.Play();
             currentMusic = StartMusic;
             isPlayAbove = false;
         }
         
+    }
+
+    public void PitchUp()
+    {
+        currentMusic.source.pitch += 0.1f;
     }
 
     public void ChangeMusic(string name)

@@ -19,7 +19,14 @@ public class StartDoor : MonoBehaviour
 
     public void Open()
     {
+        StartCoroutine(StartDelay());
+    }
+
+    IEnumerator StartDelay()
+    {
         anim.Play("Open");
+        AudioManager.Instance.PlaySound("Door");
+        yield return new WaitForSeconds(1f);
         Loader.NextLevel();
     }
 

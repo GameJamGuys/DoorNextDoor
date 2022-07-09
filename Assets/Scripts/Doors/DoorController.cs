@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using CrabStuff;
 
 public class DoorController : MonoBehaviour
 {
@@ -21,6 +22,8 @@ public class DoorController : MonoBehaviour
 
     public void NextDoor()
     {
+        if (doorIndex == doors.Length) Loader.ToMainMenu();
+        else
         Instantiate(doors[doorIndex++], transform);
     }
 }

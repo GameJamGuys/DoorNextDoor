@@ -20,6 +20,7 @@ public class DoorLogic : MonoBehaviour
 
     void Open()
     {
+        AudioManager.Instance.PlaySound("Door");
         anim.Play("Open");
         StartCoroutine(NextDoorDelay());
     }
@@ -27,6 +28,7 @@ public class DoorLogic : MonoBehaviour
     IEnumerator NextDoorDelay()
     {
         yield return new WaitForSeconds(0.5f);
+        AudioManager.Instance.PitchUp();
         control.NextDoor();
         Destroy(gameObject);
     }
