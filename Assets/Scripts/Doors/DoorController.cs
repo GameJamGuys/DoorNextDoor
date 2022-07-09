@@ -5,15 +5,22 @@ using UnityEngine;
 public class DoorController : MonoBehaviour
 {
     public GameObject[] doors;
+    int doorIndex;
 
     void Start()
     {
-        Instantiate(doors[0], transform);
+        doorIndex = 0;
+        NextDoor();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void NextDoor()
+    {
+        Instantiate(doors[doorIndex++], transform);
     }
 }
