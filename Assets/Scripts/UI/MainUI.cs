@@ -47,10 +47,9 @@ public class MainUI : MonoBehaviour
         }
     }
 
-    public void OpenNote(int index, string note)
+    public void OpenNote(int index)
     {
         notes[index].SetActive(true);
-        notes[index].GetComponentInChildren<TextMeshPro>().text = note;
         state = UIstate.Note;
     }
 

@@ -6,8 +6,6 @@ using UnityEngine.UI;
 public class NoteLogic : MonoBehaviour
 {
     public int noteIndex;
-    [TextArea]
-    public string noteText;
     Button button;
 
     void Start()
@@ -18,7 +16,7 @@ public class NoteLogic : MonoBehaviour
 
     void OpenNote()
     {
-        MainUI.Instance.OpenNote(noteIndex, noteText);
+        MainUI.Instance.OpenNote(noteIndex);
         Destroy(gameObject);
     }
 

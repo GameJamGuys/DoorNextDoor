@@ -14,9 +14,12 @@ public class DoorLogic : MonoBehaviour
         control = GetComponentInParent<DoorController>();
         button = GetComponent<Button>();
         anim = GetComponent<Animator>();
+        button.enabled = false;
 
-        if(button)button.onClick.AddListener(Open);
+        if (button) button.onClick.AddListener(Open);
     }
+
+    public void ActiveButton() => button.enabled = true;
 
     public void Open()
     {
