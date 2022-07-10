@@ -7,6 +7,11 @@ public class ManyLocks : MonoBehaviour
     public DoorLogic door;
     public GameObject[] locks;
 
+
+    private void Start()
+    {
+        door = GetComponent<DoorLogic>();
+    }
     // Update is called once per frame
     void Update()
     {

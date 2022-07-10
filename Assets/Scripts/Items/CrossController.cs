@@ -36,6 +36,11 @@ public class CrossController : MonoBehaviour
         }
        
         timer -= Time.fixedDeltaTime;
-        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log(collision.name);
+        Destroy(collision.gameObject);
     }
 }

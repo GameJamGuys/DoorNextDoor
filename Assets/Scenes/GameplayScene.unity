@@ -2799,6 +2799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doors:
+  - {fileID: 773824943464655340, guid: dbd24cb2eb57e4e7caa28c3194bf6b4a, type: 3}
   - {fileID: 1369038174535693636, guid: cddf2ba453fae4b75a7c8a836e24a643, type: 3}
   - {fileID: 2333951584501797765, guid: e391b636eb1a74ac798a65551db69785, type: 3}
   - {fileID: 6309390267757261152, guid: 47ba7f111590645829d3df8fc75ee76f, type: 3}
@@ -2806,7 +2807,6 @@ MonoBehaviour:
   - {fileID: 570590749877768443, guid: 315ca7113da204bcc868974511b99740, type: 3}
   - {fileID: 945761056498568898, guid: 87533369842de4c8bb77cbc7d77f9d19, type: 3}
   - {fileID: 3729567643992162684, guid: a80e4cf22b4e4431da9e25e012bd23cb, type: 3}
-  - {fileID: 773824943464655340, guid: dbd24cb2eb57e4e7caa28c3194bf6b4a, type: 3}
 --- !u!114 &962148078
 MonoBehaviour:
   m_ObjectHideFlags: 0
