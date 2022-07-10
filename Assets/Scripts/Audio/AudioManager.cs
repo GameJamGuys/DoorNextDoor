@@ -45,6 +45,11 @@ public class AudioManager : MonoBehaviour
         currentMusic.source.pitch += 0.1f;
     }
 
+    public void ChangePitch(float change)
+    {
+        currentMusic.source.pitch += change;
+    }
+
     public void ChangeMusic(string name)
     {
         currentMusic.source.Stop();

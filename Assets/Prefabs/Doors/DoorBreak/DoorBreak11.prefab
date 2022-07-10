@@ -150,6 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6bcb9656cedb4c3aa0ee5a06050c3d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pitchChange: 0.05
 --- !u!222 &1548317214941790445
 CanvasRenderer:
   m_ObjectHideFlags: 0

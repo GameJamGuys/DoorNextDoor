@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class DoorLogic : MonoBehaviour
 {
+    public float pitchChange = 0f;
+
     DoorController control;
     Button button;
     Animator anim;
@@ -32,7 +34,7 @@ public class DoorLogic : MonoBehaviour
     IEnumerator NextDoorDelay()
     {
         yield return new WaitForSeconds(0.5f);
-        //AudioManager.Instance.PitchUp();
+        AudioManager.Instance.ChangePitch(pitchChange);
         control.NextDoor();
         Destroy(gameObject);
     }
