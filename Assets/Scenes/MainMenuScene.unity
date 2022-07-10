@@ -417,7 +417,7 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
   - name: Door
-    clip: {fileID: 8300000, guid: 3ff1a82010a0d2d42bf75db79dd75a1c, type: 3}
+    clip: {fileID: 8300000, guid: e73b1f52219e9ca429f8bcf6c8b0c1bc, type: 3}
     volume: 1
     loop: 0
     source: {fileID: 0}

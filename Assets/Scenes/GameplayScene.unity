@@ -940,19 +940,14 @@ MonoBehaviour:
     volume: 0.5
     loop: 0
     source: {fileID: 0}
-  - name: Inventory
-    clip: {fileID: 8300000, guid: 2643072edaad689458b2bd12ee702387, type: 3}
-    volume: 0.5
-    loop: 0
-    source: {fileID: 0}
   - name: Note
     clip: {fileID: 8300000, guid: fdc889031be1af44aa75acc447b25e2e, type: 3}
     volume: 0.5
     loop: 0
     source: {fileID: 0}
   - name: Door
-    clip: {fileID: 8300000, guid: 23783b5041d4dd44a9b51311ea530e7d, type: 3}
-    volume: 0.5
+    clip: {fileID: 8300000, guid: e73b1f52219e9ca429f8bcf6c8b0c1bc, type: 3}
+    volume: 0.2
     loop: 0
     source: {fileID: 0}
   - name: Music1
@@ -961,7 +956,7 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
   - name: Music2
-    clip: {fileID: 8300000, guid: f3607f1bc67ec104491c356fe70abea8, type: 3}
+    clip: {fileID: 8300000, guid: 4a288d4a535917246a31eea2576be1eb, type: 3}
     volume: 0.5
     loop: 1
     source: {fileID: 0}
