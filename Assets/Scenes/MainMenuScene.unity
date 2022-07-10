@@ -418,7 +418,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Door
     clip: {fileID: 8300000, guid: e73b1f52219e9ca429f8bcf6c8b0c1bc, type: 3}
-    volume: 1
+    volume: 0.5
     loop: 0
     source: {fileID: 0}
 --- !u!4 &1099265323

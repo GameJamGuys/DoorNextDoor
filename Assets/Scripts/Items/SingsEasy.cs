@@ -10,10 +10,8 @@ public class SingsEasy : MonoBehaviour
     {
         foreach (SignLogic sign in signs)
         {
-            if (sign)
-            {
-                sign.canUse = true;
-            }
+            sign.canUse = true;
+           
         }
     }
 }

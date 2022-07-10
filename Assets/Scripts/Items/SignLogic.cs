@@ -6,7 +6,7 @@ public class SignLogic : MonoBehaviour
 {
     public bool canUse;
 
-    private void Start()
+    private void Awake()
     {
         canUse = false;
     }

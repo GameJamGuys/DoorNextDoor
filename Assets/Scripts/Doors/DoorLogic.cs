@@ -32,7 +32,7 @@ public class DoorLogic : MonoBehaviour
     IEnumerator NextDoorDelay()
     {
         yield return new WaitForSeconds(0.5f);
-        AudioManager.Instance.PitchUp();
+        //AudioManager.Instance.PitchUp();
         control.NextDoor();
         Destroy(gameObject);
     }
