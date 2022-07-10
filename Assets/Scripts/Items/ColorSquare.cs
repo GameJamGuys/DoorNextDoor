@@ -6,19 +6,21 @@ using UnityEngine.UI;
 
 public class ColorSquare : MonoBehaviour, IDropHandler
 {
-    public GameObject key;
+    //public GameObject key;
     public GameObject coloredKey;
+    public bool isActive = true;
 
     public void OnDrop(PointerEventData eventData)
     {
-        if (eventData.pointerDrag == key)
+        //eventData.pointerDrag == key && 
+        if (isActive)
         {
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition =
                 GetComponent<RectTransform>().anchoredPosition;
             coloredKey.SetActive(true);
             eventData.pointerDrag.SetActive(false);
 
-            StartCoroutine(Remove());
+            //StartCoroutine(Remove());
         }     
     }
 

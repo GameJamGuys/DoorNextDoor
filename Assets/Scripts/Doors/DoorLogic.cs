@@ -9,6 +9,7 @@ public class DoorLogic : MonoBehaviour
     Button button;
     Animator anim;
 
+
     void Start()
     {
         control = GetComponentInParent<DoorController>();

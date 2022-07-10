@@ -16,8 +16,7 @@ public class Lock : MonoBehaviour, IDropHandler
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition =
                 GetComponent<RectTransform>().anchoredPosition;
             eventData.pointerDrag.SetActive(false);
-
-           
+            
             StartCoroutine(Remove());
         }     
     }
@@ -26,8 +25,8 @@ public class Lock : MonoBehaviour, IDropHandler
     {
         GetComponent<Animator>().Play("Remove");
         yield return new WaitForSeconds(0.3f);
-        Destroy(gameObject);
         if (door) door.ActiveButton();
+        Destroy(gameObject);
     }
 
 }

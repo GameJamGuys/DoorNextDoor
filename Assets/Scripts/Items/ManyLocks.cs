@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ManyLocks : MonoBehaviour
 {
-    public DoorLogic door;
+    DoorLogic door;
     public GameObject[] locks;
 
 
@@ -19,7 +19,7 @@ public class ManyLocks : MonoBehaviour
         {
             if (oneLock) return;
         }
-
+        Debug.Log("active");
         door.ActiveButton();
     }
 }
