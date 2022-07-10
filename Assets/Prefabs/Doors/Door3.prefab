@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3301887, g: 0.29002044, b: 0.23206659, a: 1}
+  m_Color: {r: 0.509434, g: 0.50685936, b: 0.50222504, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -174,7 +174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085095693630b4673aa58e6408da3b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 0}
   locks:
   - {fileID: 8873803254310183737}
   - {fileID: 5932991532834330207}
