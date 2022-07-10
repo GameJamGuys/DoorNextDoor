@@ -3296,6 +3296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doors:
+  - {fileID: 945761056498568898, guid: 87533369842de4c8bb77cbc7d77f9d19, type: 3}
   - {fileID: 2333951584501797765, guid: e391b636eb1a74ac798a65551db69785, type: 3}
   - {fileID: 6309390267757261152, guid: 47ba7f111590645829d3df8fc75ee76f, type: 3}
   - {fileID: 838410301353675152, guid: 1f67fe7935a6048c0985e1d63b5e0220, type: 3}
