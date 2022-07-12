@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 3447684018269817853}
   - component: {fileID: 4319608086991866436}
   m_Layer: 0
-  m_Name: DoorWithSigns
+  m_Name: SignsDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -314,6 +314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6bcb9656cedb4c3aa0ee5a06050c3d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pitchChange: 0
 --- !u!222 &3447684018269817853
 CanvasRenderer:
   m_ObjectHideFlags: 0

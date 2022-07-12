@@ -1067,7 +1067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb5ed2b5f1f14242aa3655187f74629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startSound: Music2
+  startSound: Music
   sounds:
   - name: Button
     clip: {fileID: 8300000, guid: 95aae9bc8f129e84193eab2a3c22f9e6, type: 3}
@@ -3850,19 +3850,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doors:
+  - {fileID: 3729567643992162684, guid: a80e4cf22b4e4431da9e25e012bd23cb, type: 3}
+  - {fileID: 1525722565269710761, guid: f8e4d197392424245aee8312e024e2ca, type: 3}
   - {fileID: 8560281751762207159, guid: 5162fad8f084941f1bc0b8ff08af5447, type: 3}
   - {fileID: 2333951584501797765, guid: e391b636eb1a74ac798a65551db69785, type: 3}
   - {fileID: 6309390267757261152, guid: 47ba7f111590645829d3df8fc75ee76f, type: 3}
   - {fileID: 838410301353675152, guid: 1f67fe7935a6048c0985e1d63b5e0220, type: 3}
   - {fileID: 945761056498568898, guid: 87533369842de4c8bb77cbc7d77f9d19, type: 3}
   - {fileID: 2356777607383603214, guid: 57cecdd0e2e4a4cb792872dd054f0b3b, type: 3}
-  - {fileID: 3729567643992162684, guid: a80e4cf22b4e4431da9e25e012bd23cb, type: 3}
   - {fileID: 7687605318104714349, guid: 86eb6955e3b574b6b979554e4ead5ff5, type: 3}
-  - {fileID: 5867463187144334154, guid: 40614a7c5446c4100a271f3f049e106d, type: 3}
   - {fileID: 773824943464655340, guid: dbd24cb2eb57e4e7caa28c3194bf6b4a, type: 3}
+  - {fileID: 5867463187144334154, guid: 40614a7c5446c4100a271f3f049e106d, type: 3}
   - {fileID: 570590749877768443, guid: 315ca7113da204bcc868974511b99740, type: 3}
   - {fileID: 8480033670624565131, guid: 3377eba9956f44003abef3ab7f9796a7, type: 3}
-  - {fileID: 1525722565269710761, guid: f8e4d197392424245aee8312e024e2ca, type: 3}
   - {fileID: 6914833419684751572, guid: ccb19bfe821c1425aaa7e98bcd2cd7b0, type: 3}
   - {fileID: 8911701420321498407, guid: d2432ee42a2bc4a42a395fd5b9c19bd2, type: 3}
   - {fileID: 6582636569998831236, guid: efae6b61af99d411e9a34ef864266ac9, type: 3}
@@ -3879,6 +3879,7 @@ MonoBehaviour:
   - {fileID: 8464269527672676014, guid: e2287c3ce98e446559e9ba26526066ba, type: 3}
   - {fileID: 9015965856953381497, guid: 02eee1e3b587c458297a553d0d650e76, type: 3}
   - {fileID: 8586024141528672003, guid: d9ce8b8fa6c9a4db6b05e4745950b423, type: 3}
+  - {fileID: 1818929710188454358, guid: ac14fbee7c015498394987c15b9ab3e7, type: 3}
 --- !u!114 &962148078
 MonoBehaviour:
   m_ObjectHideFlags: 0
