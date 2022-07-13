@@ -16,7 +16,7 @@ public class DoorController : MonoBehaviour
 
     public void NextDoor()
     {
-        if (doorIndex == doors.Length) Loader.ToMainMenu();
+        if (doorIndex == doors.Length) Loader.NextLevel();
         else Instantiate(doors[doorIndex++], transform);
     }
 }

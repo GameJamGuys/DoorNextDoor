@@ -15,7 +15,7 @@ public class Lock : MonoBehaviour, IDropHandler
         {
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition =
                 GetComponent<RectTransform>().anchoredPosition;
-            eventData.pointerDrag.SetActive(false);
+            Destroy(eventData.pointerDrag);
             
             StartCoroutine(Remove());
         }     
