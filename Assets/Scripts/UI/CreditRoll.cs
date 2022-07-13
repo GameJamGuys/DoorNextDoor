@@ -7,23 +7,24 @@ public class CreditRoll : MonoBehaviour
     public float waitTime = 5f;
     public float rollSpeed = 5f;
 
-    public float stopDistance = 100f;
+    public float stopTimer = 100f;
+    float Timer;
 
     bool isMove;
     void Start()
     {
         isMove = false;
         StartCoroutine(WaitAndMove(waitTime));
+        Timer = 0;
     }
 
     void Update()
     {
-        if (isMove)
+        if (isMove && Timer < stopTimer)
         {
             transform.Translate(Vector3.up * rollSpeed * Time.deltaTime);
+            Timer += Time.deltaTime;
         }
-
-        if (GetComponent<RectTransform>().position.y >= stopDistance) isMove = false;
     }
 
     IEnumerator WaitAndMove(float time)

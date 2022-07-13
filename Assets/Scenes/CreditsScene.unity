@@ -293,7 +293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: -2874}
+  m_AnchoredPosition: {x: 8, y: -2985}
   m_SizeDelta: {x: 508.4, y: 2854.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &82691677
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Original homemade ice cream without cringe - from condensed milk, milk
+  m_text: " Original homemade ice cream without cringe - from condensed milk, milk
     and green tea. This dairy ice cream is delicate and aromatic, and the texture
     is something between a sorbet and a creme de menthe. It's a great way to refresh
     yourself!\n\n Step #1.\nPrepare the products according to the list.\nChoose the
@@ -612,7 +612,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -5238}
+  m_AnchoredPosition: {x: -2, y: -5101}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &424535903
@@ -688,7 +688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7, y: -1989}
+  m_AnchoredPosition: {x: -7, y: -2079}
   m_SizeDelta: {x: 644.16, y: 283.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &700670701
@@ -1231,7 +1231,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: -1457}
+  m_AnchoredPosition: {x: 8, y: -1547}
   m_SizeDelta: {x: 508.4, y: 257.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1050386485
@@ -1473,7 +1473,7 @@ MonoBehaviour:
   sounds:
   - name: Credits
     clip: {fileID: 8300000, guid: 6bf41e22522bb49dcafbcee771b9724e, type: 3}
-    volume: 0.483
+    volume: 0.5
     loop: 1
     source: {fileID: 0}
   - name: Door
@@ -2091,7 +2091,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: -1189}
+  m_AnchoredPosition: {x: 8, y: -1221}
   m_SizeDelta: {x: 508.4, y: 257.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887766018
@@ -2315,7 +2315,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.900024, y: -248}
+  m_AnchoredPosition: {x: -16.900024, y: -209}
   m_SizeDelta: {x: 705.34, y: 694}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1971947510
@@ -2370,4 +2370,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waitTime: 4
   rollSpeed: 1
-  stopDistance: 5200
+  stopTimer: 70

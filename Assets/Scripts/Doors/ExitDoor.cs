@@ -7,13 +7,10 @@ using CrabStuff;
 public class ExitDoor : MonoBehaviour
 {
     Button button;
-    Animator anim;
-    // Start is called before the first frame update
+
     void Start()
     {
         button = GetComponent<Button>();
-        anim = GetComponent<Animator>();
-
         button.onClick.AddListener(Open);
     }
 
@@ -24,9 +21,8 @@ public class ExitDoor : MonoBehaviour
 
     IEnumerator StartDelay()
     {
-        anim.Play("Open");
         AudioManager.Instance.PlaySound("Door");
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.3f);
         Loader.ToMainMenu();
     }
 }
