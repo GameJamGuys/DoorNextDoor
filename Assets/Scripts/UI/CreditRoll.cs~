@@ -5,9 +5,7 @@ using UnityEngine;
 public class CreditRoll : MonoBehaviour
 {
     public float waitTime = 5f;
-    public float rollSpeed = 5f;
-
-    public float stopDistance = 100f;
+    public float rollSpeed = 10f;
 
     bool isMove;
     void Start()
@@ -20,10 +18,8 @@ public class CreditRoll : MonoBehaviour
     {
         if (isMove)
         {
-            transform.Translate(Vector3.up * rollSpeed * Time.deltaTime);
+            transform.Translate(Vector3.down * rollSpeed * Time.deltaTime);
         }
-
-        if (GetComponent<RectTransform>().position.y >= stopDistance) isMove = false;
     }
 
     IEnumerator WaitAndMove(float time)
