@@ -9,9 +9,12 @@ public class OrbHolder : MonoBehaviour, IDropHandler
     {
         if (eventData.pointerDrag != null)
         {
-            eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition =
+            GameObject orb = eventData.pointerDrag;
+            orb.GetComponent<RectTransform>().anchoredPosition =
                 GetComponent<RectTransform>().anchoredPosition;
-            eventData.pointerDrag.GetComponent<DragAndDrop>().enabled = false;
+
+            orb.GetComponent<RectTransform>().localScale = new Vector3(1f, 1f, 1f);
+            orb.GetComponent<DragAndDrop>().enabled = false;
 
             Destroy(gameObject);
         }
