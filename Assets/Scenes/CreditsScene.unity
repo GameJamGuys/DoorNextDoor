@@ -318,10 +318,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: " Original homemade ice cream - from condensed milk, milk and green tea.
     \nThis dairy ice cream is delicate and aromatic, and the texture is something
-    between a sorbet and a creme de menthe. It's a great way to refresh yourself!\n\n
-    Step #1.\nPrepare the products according to the list.\nChoose the green tea of
-    your choice. I used milk oolong.\n\n Step #2.\nPour the milk into a pot, turn
-    the heat up to high, bring it to the boiling point until the first bubbles appear,
+    between a sorbet and a creme de menthe. It's a great way to refresh yourself!\n\nStep
+    #1.\nPrepare the products according to the list.\nChoose the green tea of your
+    choice. I used milk oolong.\n\n Step #2.\nPour the milk into a pot, turn the
+    heat up to high, bring it to the boiling point until the first bubbles appear,
     and then turn off the heat immediately. Pour the green tea and sugar into the
     pot. Stir and leave for about 10 minutes to allow the tea to brew.\n\n Step #3.\nThe
     milk has changed color and the tea has brewed, giving all of its flavor and aroma
@@ -448,7 +448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21, y: -712}
+  m_AnchoredPosition: {x: 21, y: -771}
   m_SizeDelta: {x: 508.4, y: 321.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &364710406
@@ -1238,7 +1238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: -1547}
+  m_AnchoredPosition: {x: 8, y: -1567}
   m_SizeDelta: {x: 508.4, y: 257.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1050386485
@@ -1481,7 +1481,7 @@ MonoBehaviour:
   sounds:
   - name: Credits
     clip: {fileID: 8300000, guid: 6bf41e22522bb49dcafbcee771b9724e, type: 3}
-    volume: 0.5
+    volume: 0.7
     loop: 1
     source: {fileID: 0}
   - name: Door
@@ -1833,9 +1833,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Gamedesign \u2014 Romkoz\nArt \u2014 ACHIIA\nArt \u2014 Sarfivell\nArt
-    \u2014 \u041E\u043B\u044C\u0444\u0438\u044F\nCode \u2014 Aristarkh\nCode \u2014
-    \u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440 \u041B\u0435\u0431\u0435\u0434\u0435\u0432\nMusic
-    \u2014 Stais"
+    \u2014 Cuwa\nMusic \u2014 Stais\nCode \u2014 Aristarkh\nCode \u2014 lebedev595\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2234,7 +2232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: -1221}
+  m_AnchoredPosition: {x: 8, y: -1250}
   m_SizeDelta: {x: 508.4, y: 257.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887766018
