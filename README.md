@@ -1,2 +1,2 @@
-# NAS_jam
- Project for NAS game jam
+# DoorNextDoor
+ Small game project for NAS game jam
